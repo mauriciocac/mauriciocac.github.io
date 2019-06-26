@@ -1,3 +1,9 @@
 body{
     background: #EEE;
 }
+
+@media(min-width: 800px){
+    body{
+        background: rgb(178, 238, 170);
+    }
+}
