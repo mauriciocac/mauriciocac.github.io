@@ -1,9 +1,15 @@
-body{
-    background: #EEE;
+body {
+    background: #DDD;
 }
 
-@media(min-width: 800px){
-    body{
-        background: rgb(178, 238, 170);
+@media screen and (min-width: 968px) {
+    body {
+        background: #777;
+    }
+}
+
+@media screen and (min-width: 1920px)   {
+    body {
+        background: #000;
     }
 }
