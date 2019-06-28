@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link href="css/stylesheet.css" rel="stylesheet" />
     <script src="js/script.js"></script>
 </head>
+
 <body>
-    <section>
-        <header>
-            <nav>
-                Cabeçalho
+    <section class="section-header">
+        <header class="header-nav">
+            <nav class="nav-bar">
+                <div>
+                    <img src="img/logo.png" class="img-logo" />
+                </div>
+
+                <ul class="ul-item">
+                    <li ><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">PROJETOS</a></li>
+                    <li><a href="#">DICAS</a></li>
+                </ul>
+
+                <div>
+                    <img src="img/img-toggle-off.png" class="img-toggle" />
+                </div>
+
             </nav>
         </header>
     </section>
@@ -23,10 +39,11 @@
     </section>
 
     <section>
-    <footer>
-        Rodapé
-    </footer>
+        <footer>
+            Rodapé
+        </footer>
     </section>
 
 </body>
+
 </html>
