@@ -1,19 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 body {
     background: #DDD;
 }
 .section-header{
-    background: linear-gradient(#333333CC, #AAAAAA55), url('../img/backgroundHeader.jpg');
+    background: linear-gradient(#000000CC, #00000055), url('../img/background-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 80vh;
 }
 .header-nav{
     padding: 10px;
-    background: #000;
+    background: transparent;
+}
+.header-info a{
+    text-decoration: none;
+    color: white;
+}
+.header-info{
+    color: white;
+    text-align: center;
+    
+    padding: 50px 0;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-info li {
+    display: block;
+    margin: 20px 0;
+}
+.header-info .info-nome{
+    font-size: 30px;
+}
+.header-info .info-prof{
+    font-size: 23px;
+}
+.header-info .info-link1, .header-info .info-link2{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+.header-info .info-link1 { 
+    margin-right: 10px; 
+}
+.header-info .info-link2 { 
+    margin-left: 10px; 
 }
 .nav-bar{
     position: relative;
@@ -22,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
- } 
+ }
 .div-toggle{
     display: inline;
 }
@@ -39,20 +75,22 @@ body {
     top: 45px;
     bottom: 0;
     left: 0;
-    width: 80%; 
+    width: 99%; 
     background: #000;
     transition-duration: 0.5s;
 } 
 .isToggled{ 
-    left: -80%;
+    left: -99%;
 }
 .ul-item li a{
     color: white; 
+    text-decoration: none;
+
  }
 
 @media screen and (min-width: 968px) {
     body {
-        background: #777;
+        background: transparent;
     }
     .nav-bar{
      max-width: 1200px;
@@ -60,6 +98,14 @@ body {
      display: flex;
      align-items: center;
      justify-content: space-between;
+      
+    }
+    .header-nav{
+        padding: 10px;
+        background: transparent;
+    }
+    .img-logo{
+        max-width: 70px;
     }
     .section-header{
         height: 60vh;
@@ -69,6 +115,8 @@ body {
         width: auto;
         top: 0px;
         display: inline-flex; 
+        
+    background: transparent;
         transition-duration: 0s;
     
     }
