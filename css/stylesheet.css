@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-size: 18px;
+    color: white;
 }
 body {
     background: #DDD;
@@ -90,6 +91,45 @@ body {
 ul .info-link1:hover, ul .info-link2:hover{
     background: white;
     color: black;
+}
+.paragrafo{
+    margin-bottom: 10px;
+}
+/* SECTION SOBRE */
+.section-sobre{
+    background-image: url(../img/background-sobre.jpg);
+    height: 100vh; 
+    margin: 0 auto;
+}
+.section-body-header h1{
+    text-align: center;
+    color: white;
+}
+.section-body-header h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: white;
+    width: 100px;
+    margin: 30px auto 0;
+}
+.title-sobre{
+    padding : 50px 0;
+    font-size: 35px; 
+}
+.section-sobre section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-sobre{
+    padding: 20px; 
+    width: 50%;
+    text-align: justify;
+}
+.img-sobre{
+    padding: 20px;
+    width: 600px;   
 }
 @media screen and (min-width: 968px) {
     body {
