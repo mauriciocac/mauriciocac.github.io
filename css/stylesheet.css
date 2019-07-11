@@ -129,7 +129,10 @@ ul .info-link1:hover, ul .info-link2:hover{
 }
 .img-sobre{
     padding: 20px;
-    width: 600px;   
+    max-width: 500px;   
+}
+.img-sobre .foto-mauricio{
+    width: 100%;
 }
 @media screen and (min-width: 968px) {
     body {
@@ -141,7 +144,7 @@ ul .info-link1:hover, ul .info-link2:hover{
      display: flex;
      align-items: center;
      justify-content: space-between;
-      
+
     }
     .header-nav{
         padding: 10px;
