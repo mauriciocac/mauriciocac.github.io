@@ -86,8 +86,11 @@ body {
     color: white; 
     text-decoration: none;
 
- }
-
+}
+ul .info-link1:hover, ul .info-link2:hover{
+    background: white;
+    color: black;
+}
 @media screen and (min-width: 968px) {
     body {
         background: transparent;
