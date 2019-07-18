@@ -70,8 +70,7 @@ body {
     max-width: 50px;
 }
 .ul-item{ 
-    list-style: none; 
-      
+    list-style: none;
     position: fixed;
     top: 45px;
     bottom: 0;
@@ -86,7 +85,6 @@ body {
 .ul-item li a{
     color: white; 
     text-decoration: none;
-
 }
 ul .info-link1:hover, ul .info-link2:hover{
     background: white;
@@ -118,13 +116,10 @@ ul .info-link1:hover, ul .info-link2:hover{
     font-size: 35px; 
 }
 .section-sobre section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: justify;
 }
 .texto-sobre{
-    padding: 20px; 
-    width: 50%;
+    padding: 20px;  
     text-align: justify;
 }
 .img-sobre{
@@ -174,6 +169,20 @@ ul .info-link1:hover, ul .info-link2:hover{
     }
     .isToggled{ 
         left: auto;
+    }
+    .section-sobre section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto-sobre{
+        padding: 20px; 
+        width: 50%;
+        text-align: justify;
+    }
+    .img-sobre{
+        padding: 20px;
+        max-width: 300px;   
     }
 }
 
