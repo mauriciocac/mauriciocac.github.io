@@ -129,6 +129,8 @@ ul .info-link1:hover, ul .info-link2:hover{
 .img-sobre .foto-mauricio{
     width: 100%;
 }
+/* SECTION PORTIFOLIO */
+
 @media screen and (min-width: 968px) {
     body {
         background: transparent;
@@ -170,6 +172,8 @@ ul .info-link1:hover, ul .info-link2:hover{
     .isToggled{ 
         left: auto;
     }
+    
+    /* SECTION SOBRE */
     .section-sobre section{
         display: flex;
         align-items: center;
@@ -184,6 +188,7 @@ ul .info-link1:hover, ul .info-link2:hover{
         padding: 20px;
         max-width: 300px;   
     }
+    /* SECTION PORTIFOLIO */
 }
 
 @media screen and (min-width: 1921px)   {
