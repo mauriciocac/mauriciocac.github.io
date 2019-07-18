@@ -96,7 +96,7 @@ ul .info-link1:hover, ul .info-link2:hover{
 /* SECTION SOBRE */
 .section-sobre{
     background-image: url(../img/background-sobre.jpg);
-    height: 100vh; 
+    min-height: 100vh; 
     margin: 0 auto;
 }
 .section-body-header h1{
